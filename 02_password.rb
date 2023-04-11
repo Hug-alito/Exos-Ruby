@@ -67,11 +67,11 @@ end
 # Affiche un écran de bienvenue avec le nom de l'utilisateur et un message de destruction imminente
 def welcome_screen
   progress_bar = "█"
-  progress_bar_lenght = 76
+  progress_bar_length = 76
 
   write("Chargement en cours")
   write_long("...\n")
-  write("#{progress_bar * progress_bar_lenght} 100%\n\n")
+  write("#{progress_bar * progress_bar_length} 100%\n\n")
   write("█████████████████████████████████████████████████████████████████████████████████\n")
   write("█████████████████ BIENVENUE SUR VOTRE ÉCRAN TOP TOP TOP SECRET.██████████████████\n")
   write("█████████████████████████████████████████████████████████████████████████████████\n")
