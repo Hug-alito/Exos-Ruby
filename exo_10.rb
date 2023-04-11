@@ -5,7 +5,7 @@ age = 0
 puts "Ok c'est parti !"
 puts "#{nb}"
 nb.times do |index|
-  puts "En #{annee}, tu avais #{age}"
+  puts "En #{annee}, tu avais #{age} ans"
   age = age + 1
   annee = annee + 1
   nb = nb-1
